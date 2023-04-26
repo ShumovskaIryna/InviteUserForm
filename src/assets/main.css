@@ -1,6 +1,9 @@
 body {
     background-color: #F5F5F5;
 }
+.wrapper {
+    padding: 0px 20px 20px 20px;
+}
 .form{
     display: inline-block;
     width: 100%;
