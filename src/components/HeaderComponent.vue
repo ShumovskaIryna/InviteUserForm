@@ -31,20 +31,23 @@ library.add(faCircleXmark)
         formGroup: [
           {title: "Main Info",
             fields: [
-              {label: "First Name", value: "" },
-              {label: "Second Name", value: ""},
-              {label: "Age", value: ""},]},
+              {label: "First Name", value: "", type:"text"},
+              {label: "Last Name", value: "", type:"text"},
+              {label: "Email Adress", value: "", type:"email"},
+              {label: "Phone Number", value: "", type:"text"},
+              {label: "Position", value: "", type:"text"},
+              {label: "Available in company", value: "", type:"select"},
+            ]},
           {title: "Available Locations",
             fields: [
-              {label: "City", value: ""},
-              {label: "Zip Code", value: ""},
-              {label: "County", value: ""},
-              {label: "State", value: ""},]},
+              {label: "Main Location", value: "", type:"text"},
+              {label: "Select All Location", value: "", type:"checkbox"},
+              {label: "Available Location", value: "", type:"text"},
+            ]},
           {title: "Roles",
             fields: [
-              {label: "Academic qualification", value: ""},
-              {label: "College Attended", value: ""},
-              {label: "Year of completion", value: ""},]},
+              {label: "", value: ""},
+            ]},
         ]
       }
     },
